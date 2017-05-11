@@ -474,34 +474,6 @@ select:focus {
   margin-right: .1625rem;
 }
 
-.xs-1-5,
-.s-1-5,
-.m-1-5,
-.l-1-5 {
-  width: 20%;
-}
-
-.xs-2-5,
-.s-2-5,
-.m-2-5,
-.l-2-5 {
-  width: 40%;
-}
-
-.xs-3-5,
-.s-3-5,
-.m-3-5,
-.l-3-5 {
-  width: 60%;
-}
-
-.xs-4-5,
-.s-4-5,
-.m-4-5,
-.l-4-5 {
-  width: 80%;
-}
-
 .unit-offset-xs-1-8 {
   margin-left: 12.5%;
 }
