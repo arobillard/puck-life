@@ -1,0 +1,58 @@
+.bg-red,
+.bg-red-hov:hover,
+.bg-red-hov:focus,
+.bg-red-hov:active {
+  background-color: #c1272d;
+}
+
+.border-red,
+.border-red-hov:hover,
+.border-red-hov:active,
+.border-red-hov:focus {
+  border-color: #c1272d;
+}
+
+.text-red,
+.text-red-hov:hover,
+.text-red-hov:active,
+.text-red-hov:focus {
+  color: #c1272d;
+}
+
+
+.btn-white {
+  border-color: #fff;
+  background-color: #fff;
+  color: #333;
+}
+
+.btn-white:hover,
+.btn-white:focus,
+.btn-white:active {
+  border-color: #c1272d;
+  background-color: #c1272d;
+  color: #fff;
+}
+
+.scroll-down {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.footer-img {
+  text-align: center;
+}
+
+@media only screen and (min-width: 38em) {
+
+  .footer-img {
+    text-align: right;
+  }
+
+  .footer-img img {
+    width: 50%;
+  }
+
+}
