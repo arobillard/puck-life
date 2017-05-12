@@ -19,7 +19,6 @@
   color: #c1272d;
 }
 
-
 .btn-white {
   border-color: #fff;
   background-color: #fff;
@@ -29,6 +28,34 @@
 .btn-white:hover,
 .btn-white:focus,
 .btn-white:active {
+  border-color: #c1272d;
+  background-color: #c1272d;
+  color: #fff;
+}
+
+.btn-red {
+  border-color: #c1272d;
+  background-color: #c1272d;
+  color: #fff;
+}
+
+.btn-red:hover,
+.btn-red:focus,
+.btn-red:active {
+  border-color: #c1272d;
+  background-color: #fff;
+  color: #c1272d;
+}
+
+.btn-red-ghost {
+  border-color: #c1272d;
+  background-color: #fff;
+  color: #c1272d;
+}
+
+.btn-red-ghost:hover,
+.btn-red-ghost:focus,
+.btn-red-ghost:active {
   border-color: #c1272d;
   background-color: #c1272d;
   color: #fff;

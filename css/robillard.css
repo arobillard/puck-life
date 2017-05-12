@@ -47,10 +47,10 @@ h3 {
   z-index: 999;
 }
 
-input[type="checkbox"] + label::before {
+/*input[type="checkbox"] + label::before {
   position: absolute;
   left: -1000px;
-}
+}*/
 
 .nav-slide {
   position: fixed;
