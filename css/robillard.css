@@ -350,6 +350,13 @@ select:focus {
   border-color: #ddd;
 }
 
+.border-dg,
+.border-dg-hov:hover,
+.border-dg-hov:active,
+.border-dg-hov:focus {
+  border-color: #333;
+}
+
 .border-white,
 .border-white-hov:hover,
 .border-white-hov:active,

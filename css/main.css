@@ -1,3 +1,7 @@
+.logo {
+  max-width: 15rem;
+}
+
 .bg-red,
 .bg-red-hov:hover,
 .bg-red-hov:focus,
@@ -33,6 +37,48 @@
   color: #fff;
 }
 
+.btn-white-to-ghost {
+  border-color: #fff;
+  background-color: #fff;
+  color: #c1272d;
+}
+
+.btn-white-to-ghost:hover,
+.btn-white-to-ghost:focus,
+.btn-white-to-ghost:active {
+  border-color: #fff;
+  background-color: #c1272d;
+  color: #fff;
+}
+
+.btn-white-dg {
+  border-color: #fff;
+  background-color: #fff;
+  color: #c1272d;
+}
+
+.btn-white-dg:hover,
+.btn-white-dg:focus,
+.btn-white-dg:active {
+  border-color: #333;
+  background-color: #333;
+  color: #fff;
+}
+
+.btn-dg {
+  border-color: #333;
+  background-color: #333;
+  color: #fff;
+}
+
+.btn-dg:hover,
+.btn-dg:focus,
+.btn-dg:active {
+  border-color: #c1272d;
+  background-color: #c1272d;
+  color: #fff;
+}
+
 .btn-red {
   border-color: #c1272d;
   background-color: #c1272d;
@@ -42,9 +88,9 @@
 .btn-red:hover,
 .btn-red:focus,
 .btn-red:active {
-  border-color: #c1272d;
-  background-color: #fff;
-  color: #c1272d;
+  border-color: #333;
+  background-color: #333;
+  color: #fff;
 }
 
 .btn-red-ghost {
@@ -70,6 +116,10 @@
 
 .footer-img {
   text-align: center;
+}
+
+.embed-form {
+  padding-top: 202.3309%;
 }
 
 @media only screen and (min-width: 38em) {
