@@ -2,12 +2,13 @@ html {
   font-family: Georgia, serif;
 }
 
-.exo,
+.sans-ser,
 .btn,
 h1,
 h2,
-h3 {
-  font-family: Exo, sans-serif;
+h3,
+button {
+  font-family: Lato, sans-serif;
 }
 
 .nav-bar-button {

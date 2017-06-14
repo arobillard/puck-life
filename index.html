@@ -11,6 +11,7 @@
   <link href="css/type.css" rel="stylesheet">
   <link href="css/robillard.css" rel="stylesheet">
   <link href="css/main.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lato:400,400i,700" rel="stylesheet">
 </head>
 <body>
   <header>
@@ -23,9 +24,9 @@
           <img class="img-flex" src="images/puck-life-white.svg" alt="">
         </div>
         <div class="banner-text text-center text-white gutter">
-          <h2 class="exo zetta">It's time to lace up your skates and hit the ice.</h2>
-          <p class="exo peta">Join our fast paced, low commitment, pick up hockey league.</p>
-          <a class="btn btn-white transition" href="#sign-up">Join Now</a>
+          <h2 class="sans-ser zetta">It's time to lace up your skates and hit the ice.</h2>
+          <p class="sans-ser peta">Join our fast paced, low commitment, pick up hockey league.</p>
+          <a class="btn btn-white mega transition" href="#sign-up">Join Now</a>
         </div>
         <div class="scroll-down">
           <a class="block" href="#masthead">
@@ -75,7 +76,7 @@
             <img class="inline-block w-1-2" src="images/puck-life.svg" alt="">
           </div>
         </div> -->
-        <div class="grid grid-stretch gutter-1-2 pad-t-2 pad-b-2">
+        <!-- <div class="grid grid-stretch gutter-1-2 pad-t-2 pad-b-2">
           <div class="unit xs-0 s-0 m-1-3 l-1-3 bg-red relative">
             <img class="w-1-2 absolute pin-c" src="images/pl-circle.svg" alt="">
           </div>
@@ -84,6 +85,18 @@
             <p class="text-center">Come join us and get back on the ice!</p>
             <div class="text-center">
               <a class="btn btn-white-to-ghost micro transition" href="#sign-up">Join Now</a>
+            </div>
+          </div>
+        </div> -->
+        <div class=" gutter-1-2 pad-t-2 pad-b-2 text-center">
+          <div class="push-2">
+            <img class="inline-block w-1-4" src="images/pl-circle.svg" alt="">
+          </div>
+          <div class="gutter-1-2 text-white max-length">
+            <p class="text-center">Puck Life is a pick up hockey league in Ottawa, ON for all ages and skill levels. Created with the busy worker in mind, we have flexible plans that allows easy scheduling so you can play the game you love hastle free.</p>
+            <p class="text-center">Come join us and get back on the ice!</p>
+            <div class="text-center">
+              <a class="btn btn-white-to-ghost mega transition" href="#sign-up">Join Now</a>
             </div>
           </div>
         </div>
@@ -194,8 +207,8 @@
             <div class="text-center push">
               <a class="btn btn-red bold mega transition" href="#sign-up">Select</a>
             </div>
-            <h3 class="push-1-2 mega">Includes</h3>
-            <ul class="gutter-1-4 push-0 micro">
+            <h3 class="push-1-2 mega gutter">Includes</h3>
+            <ul class="gutter push-0 micro">
               <li>No commitment</li>
               <li>Play whenever works</li>
               <li>Pre-book your sessions</li>
@@ -205,14 +218,14 @@
         <div class="unit xs-1 s-1 m-1-3 l-1-3 island-1-2">
           <div class="bg-white relative h-1 gutter-1-2 pad-t-2 pad-b b-2px border-lg border-r-5 chop">
             <p class="bg-dg text-white bold absolute w-1 pin-tc island-1-8 b-4px border-dg text-center text-upper">Most Popular</p>
-            <h2 class="text-center push-0 text-red">Basic Season</h2>
+            <h2 class="text-center push-0 text-dg">Basic Season</h2>
             <p class="text-center yotta push-0"><data value="0.00">155</data><sup class="kilo">$</sup></p>
             <p class="text-center micro push-1-2 text-mg">per season</p>
             <div class="text-center push">
               <a class="btn btn-dg bold mega transition" href="#sign-up">Select</a>
             </div>
-            <h3 class="push-1-2 mega">Includes</h3>
-            <ul class="gutter-1-4 push-0 micro">
+            <h3 class="push-1-2 mega gutter">Includes</h3>
+            <ul class="gutter push-0 micro">
               <li>Twelve (12) games</li>
               <li>Gauranteed spot</li>
               <li>Pre-book your sessions</li>
@@ -228,8 +241,8 @@
             <div class="text-center push">
               <a class="btn btn-red bold mega transition" href="#sign-up">Select</a>
             </div>
-            <h3 class="push-1-2 mega">Includes</h3>
-            <ul class="gutter-1-4 push-0 micro">
+            <h3 class="push-1-2 mega gutter">Includes</h3>
+            <ul class="gutter push-0 micro">
               <li>Fourteen (14) games</li>
               <li>Gauranteed spot</li>
               <li>Pre-book your sessions</li>
@@ -265,21 +278,29 @@
             <fieldset class="no-border gutter-1-4">
               <legend class="not-bold push-1-2 gutter-1-4">Pick your position:</legend>
               <div class="grid push">
-                <div class="unit xs-1 s-1 m-1-4 l-1-4 push-1-2 gutter-1-4">
-                  <input id="centre" type="checkbox" value="centre" name="position">
-                  <label class="milli" for="centre">Centre</label>
+                <div class="unit xs-1-2 s-1-2 m-1-2 l-1-2 gutter-1-4">
+                  <div class="grid">
+                    <div class="unit xs-1 s-1 m-1-2 l-1-2 push-1-2">
+                      <input id="centre" type="checkbox" value="centre" name="position">
+                      <label class="milli" for="centre">Centre</label>
+                    </div>
+                    <div class="unit xs-1 s-1 m-1-2 l-1-2 push-1-2">
+                      <input id="winger" type="checkbox" value="winger" name="position">
+                      <label class="milli" for="winger">Winger</label>
+                    </div>
+                  </div>
                 </div>
-                <div class="unit xs-1 s-1 m-1-4 l-1-4 push-1-2 gutter-1-4">
-                  <input id="winger" type="checkbox" value="winger" name="position">
-                  <label class="milli" for="winger">Winger</label>
-                </div>
-                <div class="unit xs-1 s-1 m-1-4 l-1-4 push-1-2 gutter-1-4">
-                  <input id="defense" type="checkbox" value="defense" name="position">
-                  <label class="milli" for="defense">Defense</label>
-                </div>
-                <div class="unit xs-1 s-1 m-1-4 l-1-4 push-1-2 gutter-1-4">
-                  <input id="goalie" type="checkbox" value="goalie" name="position">
-                  <label class="milli" for="goalie">Goalie</label>
+                <div class="unit xs-1-2 s-1-2 m-1-2 l-1-2 gutter-1-4">
+                  <div class="grid">
+                    <div class="unit xs-1 s-1 m-1-2 l-1-2 push-1-2 gutter-1-4">
+                      <input id="defense" type="checkbox" value="defense" name="position">
+                      <label class="milli" for="defense">Defense</label>
+                    </div>
+                    <div class="unit xs-1 s-1 m-1-2 l-1-2 push-1-2 gutter-1-4">
+                      <input id="goalie" type="checkbox" value="goalie" name="position">
+                      <label class="milli" for="goalie">Goalie</label>
+                    </div>
+                  </div>
                 </div>
               </div>
               <div>
